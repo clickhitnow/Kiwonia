@@ -1,22 +1,59 @@
 # Kiwonia
-Kiwonia is a modern, open-source Human Resources Management System (HRMS) designed to empower employee engagement through transparent, user-friendly features. Inspired by Yalova’s famous Kivi and Aronya fruits, Kiwonia symbolizes the fusion of local freshness with global innovation.
 
-# Features
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
-Anonymous Requests:
-Employees can submit anonymous requests, suggestions, and complaints to their HR department.
+## Development server
 
-Leave Management:
-View and manage annual leave statuses, as well as share leave forms.
+To start a local development server, run:
 
-Payroll Access:
-Secure access to payslips and payroll details.
+```bash
+ng serve
+```
 
-Modular Architecture:
-Easily customizable and scalable to meet the needs of organizations of any size.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-Community-Driven Development:
-Built with an open-source philosophy to encourage collaboration, transparency, and continuous improvement.
+## Code scaffolding
 
-# License
-Kiwonia is distributed under the MIT License. See the LICENSE file for details.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
